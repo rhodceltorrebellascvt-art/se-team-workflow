@@ -1,8 +1,5 @@
 def login(username, password):
     if username == "student" and password == "1234":
-        return "Login successful"
+        return "Welcome, student!"
     else:
-        return "Login failed"
-
-
-print(login("student", "1234"))
+        return "Invalid username or password"
